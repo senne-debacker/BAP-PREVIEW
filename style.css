@@ -17,6 +17,8 @@ h1{font-family:var(--display);font-weight:600;font-size:25px;margin:0;color:var(
 .naam p{font-size:13px;line-height:1.35;color:var(--muted);max-width:62ch}
 .knoppen{display:none;flex-wrap:wrap;align-items:center;gap:8px 20px}
 .stap .knoppen,.alles .knoppen{display:flex}
+.opslaan{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);white-space:nowrap}
+.opslaan .btn{color:var(--fg);text-decoration:none}
 .modus,.stappen{display:flex;align-items:center;gap:6px}
 #teller{color:var(--muted);font-size:14px;margin-right:4px;font-variant-numeric:tabular-nums}
 .btn{background:var(--panel);border:1.5px solid var(--line);border-radius:8px;padding:6px 12px;font-weight:600;font-size:14px;cursor:pointer}
