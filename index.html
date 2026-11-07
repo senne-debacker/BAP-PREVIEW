@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Krabbels</title>
+<meta name="description" content="Bachelorproef van Ibe, Senne en Tjorven (Devine, Howest) voor het XL-Medialab van het Jeugdfilmfestival Antwerpen. Dit zijn wireframes van de ervaring, nog geen visueel ontwerp.">
+<meta property="og:title" content="Krabbels">
+<meta property="og:description" content="Bachelorproef van Ibe, Senne en Tjorven (Devine, Howest) voor het XL-Medialab van het Jeugdfilmfestival Antwerpen. Dit zijn wireframes van de ervaring, nog geen visueel ontwerp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232f6fde'/%3E%3Ccircle cx='11' cy='14' r='5' fill='white'/%3E%3Ccircle cx='21' cy='14' r='5' fill='white'/%3E%3Ccircle cx='12' cy='14' r='2' fill='%2322252e'/%3E%3Ccircle cx='22' cy='14' r='2' fill='%2322252e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Figtree:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+<body>
+<div id="app">
+<header>
+<div class="naam"><h1>Krabbels</h1><p>Bachelorproef van Ibe, Senne en Tjorven (Devine, Howest) voor het XL-Medialab van het Jeugdfilmfestival Antwerpen. Dit zijn wireframes van de ervaring, nog geen visueel ontwerp.</p></div>
+<div class="knoppen">
+<div class="modus"><button class="btn" id="modusStap">Stap voor stap</button><button class="btn" id="modusAlles">Alles op één pagina</button></div>
+<div class="stappen"><span id="teller"></span><button class="btn" id="vorige">Vorige</button><button class="btn" id="volgende">Volgende</button></div>
+</div>
+</header>
+<nav id="strip" aria-label="De journey"><section class="exp"><b>Start</b><div><a class="th" href="#stap-1" title="1. Puntje wijst naar de iPad" aria-label="1. Puntje wijst naar de iPad"><img src="schermen/01.svg" width="654" height="374" alt=""></a><a class="th" href="#stap-2" title="2. Tikken" aria-label="2. Tikken"><img src="schermen/02.svg" width="494" height="374" alt=""></a></div></section><section class="exp"><b>Tekenen</b><div><a class="th" href="#stap-3" title="3. Tekenen" aria-label="3. Tekenen"><img src="schermen/03.svg" width="494" height="374" alt=""></a><a class="th" href="#stap-4" title="4. De tekening komt tot leven" aria-label="4. De tekening komt tot leven"><img src="schermen/04.svg" width="494" height="374" alt=""></a><a class="th" href="#stap-5" title="5. Weg naar de muur" aria-label="5. Weg naar de muur"><img src="schermen/05.svg" width="494" height="374" alt=""></a></div></section><section class="exp"><b>Naar de muur</b><div><a class="th" href="#stap-6" title="6. Zwaaien" aria-label="6. Zwaaien"><img src="schermen/06.svg" width="654" height="374" alt=""></a><a class="th" href="#stap-7" title="7. De Krabbel wil naar het kind" aria-label="7. De Krabbel wil naar het kind"><img src="schermen/07.svg" width="654" height="374" alt=""></a></div></section><section class="exp"><b>Spelen</b><div><a class="th" href="#stap-8" title="8. Puntje probeert de brug" aria-label="8. Puntje probeert de brug"><img src="schermen/08.svg" width="654" height="374" alt=""></a><a class="th" href="#stap-9" title="9. Op de juiste plek staan" aria-label="9. Op de juiste plek staan"><img src="schermen/09.svg" width="654" height="374" alt=""></a><a class="th" href="#stap-10" title="10. De Krabbel steekt over" aria-label="10. De Krabbel steekt over"><img src="schermen/10.svg" width="654" height="374" alt=""></a><a class="th" href="#stap-11" title="11. Helling en ladder" aria-label="11. Helling en ladder"><img src="schermen/11.svg" width="654" height="374" alt=""></a></div></section><section class="exp"><b>Finale</b><div><a class="th" href="#stap-12" title="12. De grote kloof" aria-label="12. De grote kloof"><img src="schermen/12.svg" width="654" height="374" alt=""></a></div></section><section class="exp"><b>Ontsnapping</b><div><a class="th" href="#stap-13" title="13. Het papier scheurt" aria-label="13. Het papier scheurt"><img src="schermen/13.svg" width="654" height="374" alt=""></a></div></section><section class="exp"><b>Weerzien</b><div><a class="th" href="#stap-14" title="14. De Krabbel terugzien" aria-label="14. De Krabbel terugzien"><img src="schermen/14.svg" width="654" height="374" alt=""></a></div></section></nav>
+<main>
+<article class="step" id="stap-1">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/01.svg" width="654" height="374" alt="Puntje wijst naar de iPad"><span class="dot" aria-hidden="true" style="left:38.53%;top:85.29%">1</span><span class="dot" aria-hidden="true" style="left:50.00%;top:9.36%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Start · Muur</p><h2>1. Puntje wijst naar de iPad</h2>
+<h3>Wat er gebeurt</h3><p>Puntje staat op de muur tussen een paar oude Krabbels. Hij wijst naar de iPad.</p>
+<h3>Wat het kind doet</h3><p>Kijkt naar de iPad.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Licht loopt langs de ledstrip naar de iPad.</span></li><li><span class="dot">2</span><span>Twee lege plekken: er kunnen twee kinderen spelen.</span></li></ol></div>
+</article>
+<article class="step" id="stap-2">
+<div class="vlak"><figure class="scherm" style="--ar:1.3209;--max:760px"><img src="schermen/02.svg" width="494" height="374" alt="Tikken"><span class="dot" aria-hidden="true" style="left:13.56%;top:17.91%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Start · iPad</p><h2>2. Tikken</h2>
+<h3>Wat er gebeurt</h3><p>Er staat een grote knop op de iPad, als het kind erop tikt worden ze geactiveerd.</p>
+<h3>Wat het kind doet</h3><p>Tikt op het scherm. Het canvas verschijnt.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Tikken mag overal op het scherm.</span></li></ol></div>
+</article>
+<article class="step" id="stap-3">
+<div class="vlak"><figure class="scherm" style="--ar:1.3209;--max:760px"><img src="schermen/03.svg" width="494" height="374" alt="Tekenen"><span class="dot" aria-hidden="true" style="left:31.78%;top:15.24%">1</span><span class="dot" aria-hidden="true" style="left:92.91%;top:15.78%">2</span><span class="dot" aria-hidden="true" style="left:73.08%;top:68.45%">3</span><span class="dot" aria-hidden="true" style="left:92.91%;top:87.43%">4</span></figure></div>
+<div class="uitleg"><p class="meta">Tekenen · iPad</p><h2>3. Tekenen</h2>
+<h3>Wat er gebeurt</h3><p>Puntje verschijnt op de iPad en insinueert dat het kind kan tekenen.</p>
+<h3>Wat het kind doet</h3><p>Tekent een Krabbel en tikt daarna op het vinkje.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Tekenen met vinger.</span></li><li><span class="dot">2</span><span>Kleur kiezen.</span></li><li><span class="dot">3</span><span>Oogjes op de tekening plakken.</span></li><li><span class="dot">4</span><span>Klaar: het vinkje werkt zodra er iets getekend is.</span></li></ol></div>
+</article>
+<article class="step" id="stap-4">
+<div class="vlak"><figure class="scherm" style="--ar:1.3209;--max:760px"><img src="schermen/04.svg" width="494" height="374" alt="De tekening komt tot leven"><span class="dot" aria-hidden="true" style="left:50.00%;top:92.78%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Tekenen · iPad</p><h2>4. De tekening komt tot leven</h2>
+<h3>Wat er gebeurt</h3><p>Puntje vliegt rond de Krabbel en die komt met een animatie tot leven. De Krabbel beweegt en zwaait naar het kind.</p>
+<h3>Wat het kind doet</h3><p>Tikt op de Krabbel, en die springt.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Tik op de Krabbel: hij springt.</span></li></ol></div>
+</article>
+<article class="step" id="stap-5">
+<div class="vlak"><figure class="scherm" style="--ar:1.3209;--max:760px"><img src="schermen/05.svg" width="494" height="374" alt="Weg naar de muur"><span class="dot" aria-hidden="true" style="left:90.89%;top:31.28%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Tekenen · iPad</p><h2>5. Weg naar de muur</h2>
+<h3>Wat er gebeurt</h3><p>De Krabbel en Puntje rennen naar de rand van de iPad en verdwijnen.</p>
+<h3>Wat het kind doet</h3><p>Kijkt hoe de twee figuren naar de muur gaan.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Hier vertrekt het licht langs een ledstrip die van de iPad naar de muur loopt.</span></li></ol></div>
+</article>
+<article class="step" id="stap-6">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/06.svg" width="654" height="374" alt="Zwaaien"><span class="dot" aria-hidden="true" style="left:78.29%;top:93.32%">1</span><span class="dot" aria-hidden="true" style="left:16.36%;top:17.91%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Naar de muur · Muur</p><h2>6. Zwaaien</h2>
+<h3>Wat er gebeurt</h3><p>De Krabbel staat nu groot op de muur en zwaait nog eens.</p>
+<h3>Wat het kind doet</h3><p>Gaat op de voetjes op de vloer staan en zwaait terug.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Op de voetjesstickers gaan staan.</span></li><li><span class="dot">2</span><span>De Krabbel vraagt om terug te zwaaien.</span></li></ol></div>
+</article>
+<article class="step" id="stap-7">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/07.svg" width="654" height="374" alt="De Krabbel wil naar het kind"><span class="dot" aria-hidden="true" style="left:95.87%;top:9.89%">1</span><span class="dot" aria-hidden="true" style="left:74.46%;top:52.67%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Naar de muur · Muur</p><h2>7. De Krabbel wil naar het kind</h2>
+<h3>Wat er gebeurt</h3><p>De Krabbel rent naar voren, richting het kind, maar botst tegen een glazen scherm (dat barst maar herstelt zich weer). In een denkwolk staan ze samen bij een deur. Het kind wordt vanaf nu bekeken door de camera en die registreert hun lichaam en bewegingen, het kind verschijnt op het scherm als getekende versie.</p>
+<h3>Wat het kind doet</h3><p>Kijkt.</p>
+<ol class="legende"><li><span class="dot">1</span><span>De denkwolk toont het doel: samen bij de deur.</span></li><li><span class="dot">2</span><span>De potloodfiguur volgt elke beweging.</span></li></ol></div>
+</article>
+<article class="step" id="stap-8">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/08.svg" width="654" height="374" alt="Puntje probeert de brug"><span class="dot" aria-hidden="true" style="left:32.42%;top:50.00%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Spelen · Muur</p><h2>8. Puntje probeert de brug</h2>
+<h3>Wat er gebeurt</h3><p>De Krabbel staat voor een gat. Puntje spreidt zijn armen, maar hij is te klein en valt erdoor. Dan doet hij het gebaar nog eens voor.</p>
+<h3>Wat het kind doet</h3><p>Ziet welk gebaar nodig is.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Puntje doet het gebaar voor: armen opzij.</span></li></ol></div>
+</article>
+<article class="step" id="stap-9">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/09.svg" width="654" height="374" alt="Op de juiste plek staan"><span class="dot" aria-hidden="true" style="left:39.30%;top:93.32%">1</span><span class="dot" aria-hidden="true" style="left:39.30%;top:33.96%">2</span><span class="dot" aria-hidden="true" style="left:84.40%;top:16.58%">3</span></figure></div>
+<div class="uitleg"><p class="meta">Spelen · Muur</p><h2>9. Op de juiste plek staan</h2>
+<h3>Wat er gebeurt</h3><p>Een gestippelde figuur toont de houding en de plek. De vloerstrook toont waar het kind staat en waar het moet staan.</p>
+<h3>Wat het kind doet</h3><p>Stapt naar de plek en doet de armen opzij.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Hier moet het kind staan.</span></li><li><span class="dot">2</span><span>Dit is de houding.</span></li><li><span class="dot">3</span><span>De kaart herhaalt de houding.</span></li></ol></div>
+</article>
+<article class="step" id="stap-10">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/10.svg" width="654" height="374" alt="De Krabbel steekt over"><span class="dot" aria-hidden="true" style="left:37.77%;top:74.06%">1</span><span class="dot" aria-hidden="true" style="left:91.28%;top:45.99%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Spelen · Muur</p><h2>10. De Krabbel steekt over</h2>
+<h3>Wat er gebeurt</h3><p>Tussen de handen verschijnt een lijn. Die klikt vast als brug, en de Krabbel loopt erover.</p>
+<h3>Wat het kind doet</h3><p>Houdt de armen opzij tot de Krabbel aan de overkant is.</p>
+<ol class="legende"><li><span class="dot">1</span><span>De brug zit vast.</span></li><li><span class="dot">2</span><span>Het balkje toont hoe lang je nog moet vasthouden.</span></li></ol></div>
+</article>
+<article class="step" id="stap-11">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/11.svg" width="654" height="374" alt="Helling en ladder"><span class="dot" aria-hidden="true" style="left:84.40%;top:16.58%">1</span><span class="dot" aria-hidden="true" style="left:43.88%;top:17.91%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Spelen · Muur</p><h2>11. Helling en ladder</h2>
+<h3>Wat er gebeurt</h3><p>Op de volgende bladzijden gaat het net zo. Armen schuin maken een helling, armen omhoog een ladder. Lukt het na 20 seconden niet, dan legt Puntje zelf een plank.</p>
+<h3>Wat het kind doet</h3><p>Doet de nieuwe houding na.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Nieuwe houding op de kaart.</span></li><li><span class="dot">2</span><span>De balk toont hoe ver de deur nog is.</span></li></ol></div>
+</article>
+<article class="step" id="stap-12">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/12.svg" width="654" height="374" alt="De grote kloof"><span class="dot" aria-hidden="true" style="left:49.24%;top:88.77%">1</span><span class="dot" aria-hidden="true" style="left:78.29%;top:50.00%">2</span></figure></div>
+<div class="uitleg"><p class="meta">Finale · Muur</p><h2>12. De grote kloof</h2>
+<h3>Wat er gebeurt</h3><p>Op de laatste bladzijde ligt een brede kloof met een eilandje in het midden. De deur is al te zien.</p>
+<h3>Wat het kind doet</h3><p>Maakt een brug naar het eilandje, stapt opzij en maakt een tweede. Met twee maakt elk kind een brug, tot ze elkaar raken.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Pijl: stap opzij.</span></li><li><span class="dot">2</span><span>Hier komt de tweede brug.</span></li></ol></div>
+</article>
+<article class="step" id="stap-13">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/13.svg" width="654" height="374" alt="Het papier scheurt"><span class="dot" aria-hidden="true" style="left:65.29%;top:93.32%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Ontsnapping · Muur</p><h2>13. Het papier scheurt</h2>
+<h3>Wat er gebeurt</h3><p>De Krabbel gaat door de deur. Puntje zwaait, en het licht loopt langs de ledstrip naar de uitgang.</p>
+<h3>Wat het kind doet</h3><p>Volgt het licht naar buiten.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Het licht wijst de weg naar de uitgang.</span></li></ol></div>
+</article>
+<article class="step" id="stap-14">
+<div class="vlak"><figure class="scherm" style="--ar:1.7487;--max:980px"><img src="schermen/14.svg" width="654" height="374" alt="De Krabbel terugzien"><span class="dot" aria-hidden="true" style="left:65.29%;top:31.28%">1</span></figure></div>
+<div class="uitleg"><p class="meta">Weerzien · Scherm aan de uitgang</p><h2>14. De Krabbel terugzien</h2>
+<h3>Wat er gebeurt</h3><p>Op het scherm aan de uitgang wandelt de Krabbel binnen, tussen de andere Krabbels van vandaag, en zwaait.</p>
+<h3>Wat het kind doet</h3><p>Vindt de Krabbel terug.</p>
+<ol class="legende"><li><span class="dot">1</span><span>Een spotje op de nieuwste Krabbel.</span></li></ol></div>
+</article>
+</main>
+</div>
